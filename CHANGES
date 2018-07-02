@@ -1,0 +1,37 @@
+v0.14   Tue Mar 24 16:09:10 GMT 2015
+        Added license
+        Moved to getopt long
+        Moved to autoconf
+        Added step weighting for hapfusing
+        Added support for WTCCC style haplotype files
+        Step weighting is now default
+
+v0.10   Fri Oct 10 16:54:34 BST 2014
+        Added linear weighting option for hapfusing
+
+v0.9    Fri Sep 19 22:45:37 BST 2014
+        Fixed bug in handling of multiple sites with the same position
+        added checks to make sure all input files exist before proceeding
+
+v0.7    Sun Aug 24 16:57:16 BST 2014
+        Added exception safety to raw pointers
+
+v0.6   
+        moved to using htslib for VCF reading
+        also using multithreading to concurrently read and write vcfs        
+
+v0.4    Mon Mar 03 11:42:47 GMT 2014
+        This is essentially v0.1 again with tests, which it passes!
+        Source and phaseAndImpute lines from first chunk's header
+        are now passed through to output VCF.
+
+v0.3    Wed Feb 12 16:08:46 GMT 2014
+        Made changes in vcf_parse.hpp such that only VCFs with format
+        field of "GT:GP:APP" are accepted
+
+v0.2    Tue Feb 11 16:55:27 GMT 2014
+	moved to boost filter based hapfuse output. This allows using
+	.vcf and .vcf.gz files as output.
+
+v0.1 
+        Initial commit
