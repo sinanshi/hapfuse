@@ -10,7 +10,7 @@ void printParameters(const HapfuseHelper::init &init);
 int main(int argc, char **argv) {
 
   ostringstream header;
-  header << "hapfuse v" << PACKAGE_VERSION << "\n";
+  header << "hapfuse v\n";// << PACKAGE_VERSION << "\n";
 
   ostringstream documentation;
   documentation

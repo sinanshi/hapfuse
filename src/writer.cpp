@@ -147,7 +147,7 @@ void Writer::write_vcf_head() {
       throw runtime_error("could not append VCF GP format header");
 
   ostringstream version;
-  version << "##source=UoO:SNPTools:hapfuseV" << PACKAGE_VERSION;
+  version << "##source=UoO:SNPTools:hapfuseV" ;//<< PACKAGE_VERSION;
   if (bcf_hdr_append(m_hdr_out, version.str().c_str()))
     throw runtime_error("could not append hapfuse header");
 

@@ -20,7 +20,7 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 #
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-sign-compare")
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-sign-compare -lhts")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 

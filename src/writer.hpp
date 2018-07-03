@@ -4,6 +4,7 @@
 #ifndef _WRITER_HPP
 #define _WRITER_HPP 1
 
+#include <numeric>
 #include <exception>
 #include <list>
 #include <set>
